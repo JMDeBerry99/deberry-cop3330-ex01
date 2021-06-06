@@ -11,9 +11,14 @@ public class SayingHello
     {
         Scanner input = new Scanner(System.in);
 
+        //input
         System.out.print("What is your name? ");
         String name = input.nextLine();
+
+        //string concatenation
         String greeting = "\nHello, " + name + ", nice to meet you!";
+
+        //output
         System.out.println(greeting);
     }
 }
